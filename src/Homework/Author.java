@@ -16,4 +16,10 @@ public class Author {
     public String getSecondName() {
         return secondName;
     }
+
+    public String toString() {
+        return name + " " + secondName;
+    }
+
+
 }
